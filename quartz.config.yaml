@@ -167,6 +167,7 @@ plugins:
     layout:
       position: right
       priority: 10
+      condition: show-graph
   - source: "@quartz-community/search"
     enabled: true
     layout:
