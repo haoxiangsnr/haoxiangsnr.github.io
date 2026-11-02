@@ -1,13 +1,13 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Xiang Hao
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
   locale: en-US
-  baseUrl: haoxiangsnr@github.io
+  baseUrl: haoxiangsnr.github.io
   ignorePatterns:
     - private
     - templates
@@ -190,6 +190,7 @@ plugins:
     layout:
       position: beforeBody
       priority: 20
+      condition: not-index
   - source: "@quartz-community/tag-list"
     enabled: false
     layout:
@@ -230,8 +231,10 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        Google Scholar: https://scholar.google.com/citations?user=07yyhmgAAAAJ&hl=en
+        GitHub: https://github.com/haoxiangsnr
+        LinkedIn: https://www.linkedin.com/in/xiang-hao-99506b185/
+        Email: mailto:haoxiangsnr@gmail.com
     layout:
       position: footer
       priority: 50
@@ -266,6 +269,7 @@ plugins:
       position: beforeBody
       priority: 15
       display: all
+      condition: not-index
   - source: "@quartz-community/obsidian-plugin-excalidraw"
     enabled: true
     options:
