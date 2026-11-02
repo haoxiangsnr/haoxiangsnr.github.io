@@ -2,8 +2,10 @@
 publish: true
 title: Home
 created: 2025-11-16T01:27:52.394Z
-modified: 2026-11-02T20:41:59.300Z
+modified: 2026-11-02T20:52:39.638Z
 ---
+
+![[Assets/profile.jpg| 180]]
 
 I am a Ph.D. student in the Department of Data Science and Artificial Intelligence at The Hong Kong Polytechnic University, advised by [Prof. Jibin Wu](https://www.jibinwu.com/) and [Prof. Kay Chen Tan](https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/).
 
