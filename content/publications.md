@@ -1,7 +1,7 @@
 ---
 publish: true
 created: 2026-01-09
-modified: 2026-11-02T21:42:00.298Z
+modified: 2026-01-09
 ---
 
 Selected publications in reverse chronological order. Check [Google Scholar](https://scholar.google.com/citations?user=07yyhmgAAAAJ\&hl=en) for a complete list of papers and citations. My name is bolded.
