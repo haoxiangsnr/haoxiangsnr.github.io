@@ -232,7 +232,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: "@quartz-community/footer"
-    enabled: true
+    enabled: false
     options:
       links:
         Google Scholar: https://scholar.google.com/citations?user=07yyhmgAAAAJ&hl=en
