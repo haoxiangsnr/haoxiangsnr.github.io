@@ -244,7 +244,7 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: true
+    enabled: false
   - source: "@quartz-community/spacer"
     enabled: false
     options: {}
