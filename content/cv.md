@@ -1,5 +1,6 @@
 ---
 publish: true
+title: CV
 created: 2026-01-09
 modified: 2026-10-17
 ---
