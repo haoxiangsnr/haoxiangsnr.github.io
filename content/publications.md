@@ -1,5 +1,6 @@
 ---
 publish: true
+title: Publications
 created: 2026-01-09
 modified: 2026-01-09
 ---
