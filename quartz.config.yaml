@@ -219,7 +219,7 @@ plugins:
       priority: 35
       group: toolbar
   - source: "@quartz-community/breadcrumbs"
-    enabled: true
+    enabled: false
     layout:
       position: beforeBody
       priority: 5
@@ -244,9 +244,9 @@ plugins:
       position: footer
       priority: 50
   - source: "@quartz-community/recent-notes"
-    enabled: false
-  - source: "@quartz-community/spacer"
     enabled: true
+  - source: "@quartz-community/spacer"
+    enabled: false
     options: {}
     order: 25
     layout:
