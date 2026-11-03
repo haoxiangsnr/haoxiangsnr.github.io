@@ -1,3 +1,80 @@
 @use "./variables.scss" as *;
 
 // put your custom CSS here!
+
+/* Folder page: project title on left, date on right */
+
+.page-listing {
+
+    // Optional: hide "1 item under this folder"
+    >p {
+        display: none;
+    }
+
+    .section-li>.section {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr) max-content;
+        column-gap: 1.5rem;
+        row-gap: 0.4rem;
+        align-items: baseline;
+
+        // Title on the left
+        >.desc {
+            grid-column: 1;
+            grid-row: 1;
+            min-width: 0;
+
+            h3 {
+                margin: 0;
+                font-size: 1.1rem;
+                line-height: 1.5;
+            }
+        }
+
+        // Date on the right
+        >.meta {
+            grid-column: 2;
+            grid-row: 1;
+            margin: 0;
+            text-align: right;
+            white-space: nowrap;
+            font-size: 0.85rem;
+            opacity: 0.65;
+        }
+
+        // Tags below, if present
+        >.tags {
+            grid-column: 1 / -1;
+            grid-row: 2;
+            margin: 0;
+        }
+    }
+}
+
+// Mobile: allow long titles to use full width
+@media (max-width: 600px) {
+    .page-listing .section-li>.section {
+        grid-template-columns: minmax(0, 1fr);
+
+        >.meta {
+            grid-column: 1;
+            grid-row: 2;
+            text-align: left;
+        }
+
+        >.tags {
+            grid-column: 1;
+            grid-row: 3;
+        }
+    }
+}
+
+
+// Hide Quartz attribution, keep footer links
+footer>p:first-child {
+    display: none;
+}
+
+footer>ul {
+    margin-top: 0 !important;
+}

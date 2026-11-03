@@ -101,7 +101,7 @@ plugins:
     enabled: false
     order: 85
   - source: "@quartz-community/hard-line-breaks"
-    enabled: true
+    enabled: false
     order: 90
   - source: "@quartz-community/ox-hugo"
     enabled: false
@@ -112,9 +112,9 @@ plugins:
   - source: "@quartz-community/quartz-fonts"
     enabled: true
   - source: "@quartz-themes/core"
-    enabled: true
+    enabled: false
     options:
-      theme: default
+      theme: tokyo-night
       mode: both
   - source: "@quartz-community/remove-draft"
     enabled: true
@@ -168,7 +168,6 @@ plugins:
     layout:
       position: right
       priority: 10
-      condition: show-graph
   - source: "@quartz-community/search"
     enabled: true
     layout:
@@ -234,7 +233,7 @@ plugins:
       position: afterBody
       priority: 10
   - source: "@quartz-community/footer"
-    enabled: false
+    enabled: true
     options:
       links:
         Google Scholar: https://scholar.google.com/citations?user=07yyhmgAAAAJ&hl=en
