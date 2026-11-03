@@ -3,12 +3,12 @@ publish: true
 title: Home
 description: Personal website of Xiang Hao. Research on speech enhancement, hearing technology, and audio AI.
 created: 2025-11-16T01:27:52.394Z
-modified: 2026-11-02T21:34:44.369Z
+modified: 2026-11-03T09:42:11.319Z
 ---
 
 ## Hi, I'm Xiang Hao 👋
 
-![[Assets/profile.jpg| 180]]
+![[Assets/profile.jpg| 140]]
 
 I am a Ph.D. student in the Department of Data Science and Artificial Intelligence at The Hong Kong Polytechnic University, advised by [Prof. Jibin Wu](https://www.jibinwu.com/) and [Prof. Kay Chen Tan](https://www.polyu.edu.hk/dsai/people/academic-staff/tankaychen/).
 
