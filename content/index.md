@@ -3,7 +3,7 @@ publish: true
 title: Home
 description: Personal website of Xiang Hao. Research on speech enhancement, hearing technology, and audio AI.
 created: 2025-11-16T01:27:52.394Z
-modified: 2026-11-03T09:42:11.319Z
+modified: 2026-11-03T12:24:34.625Z
 ---
 
 ## Hi, I'm Xiang Hao 👋
@@ -36,5 +36,5 @@ I am always happy to connect with researchers working on related problems.
 ## Navigation
 
 - [Publications](/publications/) lists my papers and preprints.
-- [Projects](/projects/) collects research systems and engineering notes.
+- [Projects](/quartz-projects) collects research systems and engineering notes.
 - [CV](/cv/) summarizes my education, research and industry experience, awards, and selected publications.
