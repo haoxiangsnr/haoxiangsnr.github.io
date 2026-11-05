@@ -5,8 +5,8 @@ configuration:
   enableSPA: true
   enablePopovers: true
   analytics:
-    provider: clarity
-    projectId: z8um45qqur
+    provider: google
+    tagId: GTM-5XNFBSKK
   locale: en-US
   baseUrl: haoxiangsnr.github.io
   ignorePatterns:
