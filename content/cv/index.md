@@ -33,7 +33,7 @@ AI and signal processing for hearing aids and assistive listening systems; speec
 ### Research Experience
 
 - **Visiting Research Student**, [MRC Cognition and Brain Sciences Unit](https://www.mrc-cbu.cam.ac.uk/), University of Cambridge, Cambridge, UK, Sept. 2026 – Present.\
-  Working closely with Dr. François Guérit and Dr. Lidea Shahidi on machine-learning approaches for optimizing cochlear-implant coding strategies, within [Dr. Bob Carlyon’s research group](https://www.mrc-cbu.cam.ac.uk/our-research/carlyon/).
+  Working closely with Dr. François Guérit and Dr. Lidea Shahidi on machine-learning approaches for optimizing cochlear-implant coding strategies, within [Dr. Bob Carlyon's research group](https://www.mrc-cbu.cam.ac.uk/our-research/carlyon/).
 
 - **Visiting Research Student**, Westlake University, Hangzhou, China, Jun. 2020 – Dec. 2020.\
   Mentored by [Prof. Xiaofei Li](https://audio.westlake.edu.cn/). Developed [FullSubNet](https://github.com/Audio-WestlakeU/FullSubNet), an open-source full-band and sub-band fusion model for real-time speech enhancement with 600+ GitHub stars.
